@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FormulaCalendario</string>
+    <string name="texto_nombre">Armando Rodríguez</string>
+    <string name="texto_telefono">55 25 17 49 32</string>
+    <string name="texto_email">jarodriguezvera@mail.com</string>
+    <string name="texto_descripcion">Creador de Aplicaciones</string>
+    <string name="texto_boton_siguiente">Siguiente</string>
+</resources>
