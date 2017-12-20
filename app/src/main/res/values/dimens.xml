@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_izquierdo_derecho">20sp</dimen>
+    <dimen name="margin_izquierdo_derecho">20dp</dimen>
+    <dimen name="letra_verficadatos">25sp</dimen>
+
 </resources>

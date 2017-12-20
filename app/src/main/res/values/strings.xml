@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">FormulaCalendario</string>
-    <string name="texto_nombre">Armando Rodríguez</string>
-    <string name="texto_telefono">55 25 17 49 32</string>
-    <string name="texto_email">jarodriguezvera@mail.com</string>
-    <string name="texto_descripcion">Creador de Aplicaciones</string>
-    <string name="texto_boton_siguiente">Siguiente</string>
+    <string name="inputext_nombre">Armando Rodríguez</string>
+    <string name="inputext_telefono">55 25 17 49 32</string>
+    <string name="inputext_email">jarodriguezvera@mail.com</string>
+    <string name="inputext_descripcion">Creador de Aplicaciones</string>
+    <string name="inputext_boton_siguiente">Siguiente</string>
+    <string name="text_setdate">    Set Date  </string>
+    <string name="text_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="texto_btn_ok">OK</string>
+    <string name="texto_btn_cancel">CANCEL</string>
+    <string name="text_confirma_datos">Confirmar Datos</string>
+    <string name="text_nombre">Nombre:</string>
+    <string name="text_fecha_nacimiento_datos">Fecha Nacimiento:</string>
+    <string name="text_telefono">Tel:</string>
+    <string name="text_email">Email:</string>
+    <string name="text_descripcion">Descripción:</string>
+    <string name="text_btn_editar_datos">Editar Datos</string>
 </resources>
