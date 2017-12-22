@@ -16,4 +16,9 @@
     <string name="text_email">Email:</string>
     <string name="text_descripcion">Descripción:</string>
     <string name="text_btn_editar_datos">Editar Datos</string>
+    <string name="extra_nombre">nombre</string>
+    <string name="extra_telefono">telefono</string>
+    <string name="extra_email">email</string>
+    <string name="extra_descripcion">descripcion</string>
+    <string name="extra_fecha">fecha</string>
 </resources>

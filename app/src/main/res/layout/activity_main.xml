@@ -18,6 +18,7 @@
             android:layout_marginRight="@dimen/margin_izquierdo_derecho">
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
+                android:id="@+id/texti_nombre"
                 android:layout_height="wrap_content"
                 android:text="@string/inputext_nombre"/>
         </android.support.design.widget.TextInputLayout>
@@ -46,6 +47,7 @@
             <DatePicker
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/dtp_fnacimiento"
                 android:layout_row="1"
                 android:layout_column="0"
                 android:layout_columnSpan="2"
@@ -56,10 +58,12 @@
                 android:text="@string/texto_btn_cancel"
                 android:layout_row="2"
                 android:layout_column="0"
+                android:id="@+id/btn_cancel"
                 android:layout_gravity="fill_horizontal"/>
             <Button
                 android:layout_row="2"
                 android:layout_column="1"
+                android:id="@+id/btn_ok"
                 android:text="@string/texto_btn_ok"
                 android:layout_gravity="fill_horizontal"/>
         </GridLayout>
@@ -67,24 +71,28 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/texti_telefono"
             android:text="@string/inputext_telefono"
             android:layout_marginRight="@dimen/margin_izquierdo_derecho"
             android:layout_marginLeft="@dimen/margin_izquierdo_derecho"/>
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/texti_email"
             android:text="@string/inputext_email"
             android:layout_marginRight="@dimen/margin_izquierdo_derecho"
             android:layout_marginLeft="@dimen/margin_izquierdo_derecho"/>
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/texti_descripcion"
             android:text="@string/inputext_descripcion"
             android:layout_marginRight="@dimen/margin_izquierdo_derecho"
             android:layout_marginLeft="@dimen/margin_izquierdo_derecho"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/btn_siguiente"
             android:text="@string/inputext_boton_siguiente"/>
 
     </LinearLayout>

@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="@string/text_confirma_datos"
-        
         android:textSize="@dimen/letra_verficadatos"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
@@ -21,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="95dp"
+        android:id="@+id/textv_nombre"
         android:text="@string/text_nombre"
         android:layout_marginLeft="@dimen/margin_izquierdo_derecho"
         app:layout_constraintLeft_toRightOf="parent"
@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="135dp"
         android:text="@string/text_fecha_nacimiento_datos"
+        android:id="@+id/textv_fecha"
         app:layout_constraintLeft_toRightOf="parent"
         android:layout_marginLeft="@dimen/margin_izquierdo_derecho"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
         android:text="@string/text_telefono"
+        android:id="@+id/textv_telefono"
         app:layout_constraintLeft_toRightOf="parent"
         android:layout_marginLeft="@dimen/margin_izquierdo_derecho"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -49,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="215dp"
         android:text="@string/text_email"
+        android:id="@+id/textv_email"
         app:layout_constraintLeft_toRightOf="parent"
         android:layout_marginLeft="@dimen/margin_izquierdo_derecho"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="255dp"
+        android:id="@+id/textv_descripcion"
         android:text="@string/text_descripcion"
         app:layout_constraintLeft_toRightOf="parent"
         android:layout_marginLeft="@dimen/margin_izquierdo_derecho"
@@ -66,6 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="352dp"
+        android:id="@+id/btn_editar"
         android:text="@string/text_btn_editar_datos"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintLeft_toRightOf="parent"
